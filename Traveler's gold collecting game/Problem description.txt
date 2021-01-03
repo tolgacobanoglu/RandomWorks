@@ -1,0 +1,24 @@
+Write a program that fills an integer array of size 1000 with random positive integers between 1 and 10.
+Assume that each element represents a different city and the integers stored in the array represent the
+number of golds in those cities. The program traverses over the array and collects the golds at each city,
+starting from a random position. When the program visits a certain city, all of the golds are collected,
+and the visited element of the array becomes 0 (no gold is left at that city.) The journey continues with
+the rule given below. If the position at the nth step is denoted by pn, and the number of golds at the city
+pn is denoted by gn,
+
+*𝑝𝑛+1 calculated as:
+If 𝑔𝑛𝑚𝑜𝑑 2 = 0, 𝑝𝑛+1 equals 𝑎𝑏𝑠𝑜𝑙𝑢𝑡𝑒 𝑣𝑎𝑙𝑢𝑒 𝑜𝑓 ((𝑝𝑛−1 + 𝑝𝑛 + 𝑔𝑛) 𝑚𝑜𝑑 1000
+If 𝑔𝑛𝑚𝑜𝑑 2 = 1, 𝑝𝑛+1 equals 𝑎𝑏𝑠𝑜𝑙𝑢𝑡𝑒 𝑣𝑎𝑙𝑢𝑒 𝑜𝑓 ((𝑝𝑛−1 + 𝑝𝑛 − 𝑔𝑛) 𝑚𝑜𝑑 1000
+
+The program continues visiting cities until the last three visited city has no gold.
+The program, at each visit, should print out the following information:
+• The current city index (pn).
+• The previous city index (pn-1).
+• The number of golds at the current city (gn).
+• The current total gold collected.
+• The number of cities visited.
+During the journey, if the following conditions arise, the given rules apply:
+• If the total number of golds collected becomes a perfect square after a visit, then the program
+should print “PERFECT!” and the total number of golds are doubled (x2).
+• If the total number of golds collected becomes a prime number after a visit, then the program
+should print “PRIME!” and the total number of golds are tripled (x3).
