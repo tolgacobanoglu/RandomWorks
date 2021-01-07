@@ -1,0 +1,9 @@
+implement a coffee shop example. In this coffee shop, everything must progress as if it does in real life. It means that the program should ask a person for body temperature in Celsius, and grant or reject access to a coffee shop. When a customer orders a coffee, they have to choose a size such as Small, Medium, and Large then, depending on the order, the price has to change. The price also has to change depending on the type of coffee. For example, for coffees that are similar to espresso, you also need to take every shot of espresso into account. The actual prices of the coffees depend on your imagination however, they should be realistic. Some hints: ● Focus on dividing your program into multiple functions. ● You can also return double or integer types of values from your functions, so use them if you can. ● Don’t just code a function every possible type of, and try to make it generic as much as possible. ● Be creative. Fill the gaps using your imagination. This is an open ended lab work. Expectations:
+
+You will have milk, steamed milk, milk foam, and hot chocolate that can be ordered for a specific type of coffee.
+You will have two basic types of coffee, filter coffee, and espresso(Hint: Don’t forget about shots, that could be a measure for the price).
+We are expecting your program to be able to order; Cappuccino, Latte, Mocha, Flat White, or Filter Coffee. All of these are base types of orders, however, you can always have extra milk or hot chocolate, so make sure you take that into account.
+Customers are not allowed to enter if their body temperature is higher than 36.5 Celsius.
+The user will enter integer values to select their options for everything in the program.
+Add an exit option for the user so he/she can cancel the order.
+The program should terminate if the customers try to order his/her 4th coffee.
