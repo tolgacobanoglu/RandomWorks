@@ -1,0 +1,7 @@
+Writing a MATLAB program that solves and simulates the graphics of the Gauss-Seidel and Jacobisolutions for the following linear equation system.
+On the plot graphic,there must be 6 graphs (3 for Gauss-Seidel and 3 for Jacobi) and each graphic should show the change of variables
+(x, y, z) over time.
+
+3x - y + z = 15
+x + 4y - 2z = -13
+-3x + 2y + 6z = 11
