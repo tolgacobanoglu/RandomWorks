@@ -1,0 +1,17 @@
+A program that reads an integer from the user (keyboard), namely n. Your
+program should print all positive numbers that are smaller than n and satisfy the
+following condition: If we denote the number with a and sum of its digits b then
+a+b is a perfect square. You should print the numbers in ascending order and print
+their digits separated by “-“ symbol from the least significant to the most
+significant on the same line as the number. At the end of each line you should also
+print a+b.
+Example:
+If the user enters n : 150, then the output should be as follows:
+2 2 4
+8 8 16
+17 7-1 25
+27 7-2 36
+38 8-3 49
+72 2-7 81
+86 6-8 100
+135 5-3-1 144
