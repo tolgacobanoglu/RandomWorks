@@ -1,0 +1,34 @@
+Write a C program that includes the functions listed as follows:
+clearField(.): Takes a 20x20 2-dimensional integer array that represents a minefield. The
+ function must assign all elements to 0.
+putMine(.): Takes a 20x20 2-dimensional integer array (minefield), and two integers row and
+ column. The function must assign the element at [row,column] in the array to -1.
+processField(.): Takes 20x20 2-dimensional integer array (minefield). In the minefield, -1
+ represents a mine is placed at that location. The function must fill the
+ elements other than the mines with the number of mines that the element is
+ neighbor to (including diagonal neighbors).
+printField(.): Takes 20x20 2-dimensional integer array (minefield). The function must print
+ the field by printing '*' instead of '-1' for the mines.
+main() : Creates a minefield, clears it by using clearField() and puts arbitrary number of mines to
+ the minefield by using putMine() function. After that, the minefield must be processed and
+ printed by using processField() and printField() functions.
+Example: For a field of 4x4 first the following array is created.
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+Then some mines are put as follows.
+0 0 -1 0
+0 0 0 0
+0 -1 0 0
+0 0 0 -1
+Then, after processing the field, it is as follows.
+0 1 -1 1
+1 2 2 1
+1 -1 2 1
+1 1 2 -1
+Also, it is printed as follows.
+0 1 * 1
+1 2 2 1
+1 * 2 1
+1 1 2 *
