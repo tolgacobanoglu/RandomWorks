@@ -1,0 +1,3 @@
+Complete with necessary functions this example code to implement a solution
+to the producer consumer problem discussed in class using Posix threads and
+semaphores. Assume that there is only 10 producer and 10 consumer.
