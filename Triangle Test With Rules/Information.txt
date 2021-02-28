@@ -1,0 +1,24 @@
+Assignment Instructions
+This is the classical example for Software Test books and courses.
+Write a triangle program with a GUI or CLI (in any programming language) that accepts three integers, a, b, and c, as
+input that represent the sides of a triangle.
+The integers a, b, and c must satisfy the following conditions:
+C1: 1 <= a <= 50
+C2: 1 <= b <= 50
+C3: 1 <= c <= 50
+C4: a < b+c
+C5: b < a+c
+C6: c < a+b
+
+If an input value fails any of the conditions C1, C2, or C3, the program notes this with an error message.
+
+If values of a, b, and c satisfy conditions C1, C2, and C3, one of the four mutually exclusive outputs is given:
+
+1. Equilateral.
+2. Isosceles.
+3. Scalene.
+4. If any of conditions C4, C5, and C6 is not met, the program output is "Not a Triangle".
+
+If and only if all three digits of a valid input are the same the program displays "equilateral"
+If and only if any two of the digits of a valid input are the same the program displays "isosceles"
+If and only if each digit of a valid input is different the program displays "scalene"
