@@ -1,3 +1,0 @@
-C:/Users/pc/Desktop/Speed test analysis of recursion and iteration functions/cmake-build-debug/CMakeFiles/Speed_test_analysis_of_recursion_and_iteration_functions.dir
-C:/Users/pc/Desktop/Speed test analysis of recursion and iteration functions/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/pc/Desktop/Speed test analysis of recursion and iteration functions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
