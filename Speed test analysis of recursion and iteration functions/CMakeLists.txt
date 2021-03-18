@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(Speed_test_analysis_of_recursion_and_iteration_functions)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(Speed_test_analysis_of_recursion_and_iteration_functions main.cpp)
