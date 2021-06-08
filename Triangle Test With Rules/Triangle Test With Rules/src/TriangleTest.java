@@ -39,7 +39,7 @@ public class TriangleTest
             }
     }
 
-    public void sidesUnknownValueEntered(String test,int b,int c)// bunu overload yap ve çalıştır
+    public void sidesUnknownValueEntered(String test,int b,int c)
     {
         errorMessage();
     }
