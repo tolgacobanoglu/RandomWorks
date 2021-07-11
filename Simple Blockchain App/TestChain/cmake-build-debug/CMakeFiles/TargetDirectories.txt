@@ -1,0 +1,3 @@
+C:/Users/pc/Desktop/TestChain/cmake-build-debug/CMakeFiles/TestChain.dir
+C:/Users/pc/Desktop/TestChain/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pc/Desktop/TestChain/cmake-build-debug/CMakeFiles/rebuild_cache.dir
