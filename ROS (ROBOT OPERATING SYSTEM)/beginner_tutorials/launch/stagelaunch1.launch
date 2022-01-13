@@ -1,0 +1,10 @@
+<launch>
+<!--
+    <node pkg="stage_ros" name="stageros" type="stageros" args="$(find stage_ros)/world/willow-erratic.world"/>
+    <node pkg="beginner_tutorials" name="move" type="move.py"/>
+
+-->    
+    <node pkg="stage_ros" name="stageros" type="stageros" args="$(find beginner_tutorials)/world/world2.world" output="screen"/>
+    
+
+    </launch>
